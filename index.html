@@ -9,8 +9,16 @@
       <h1>My TODO List</h1>
       <input type="text" id="taskInput" placeholder="Enter your task">
       <button onclick="addTask()">Add Task</button>
-      <ul id="taskList">
-      </ul>
+      <table id="taskTable">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="taskList">
+        </tbody>
+      </table>
     </div>
     <script src="script.js"></script>
   </body>
